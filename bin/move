@@ -12,3 +12,5 @@ sleep(0.5)
 
 prompt("Where would you like to go?")
 input = gets.strip
+
+index = input_to_index(input)
