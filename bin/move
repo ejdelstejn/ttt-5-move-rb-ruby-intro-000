@@ -7,6 +7,8 @@ require_relative '../lib/move.rb'
 prompt("Welcome to Tic Tac Toe!")
 sleep(0.5)
 
+board = [" "," "," "," "," "," "," "," "," "]
+
 display_board(board)
 sleep(0.5)
 
